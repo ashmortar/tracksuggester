@@ -48,9 +48,25 @@ $(document).ready(function() {
       $("#question1").fadeIn();
     };
 
+    //this selects a track suggestion based on answers to the form questions
     if (question1 === 1) {
       $("#question7").hide();
       $("#cssdesign").fadeIn();
+    } else if (question2 === 1) {
+      $("#question7").hide();
+      $("#rubyrails").fadeIn();
+    } else if ((question2 === 2) && (question3 === 1)) {
+      $("#question7").hide();
+      $("#javaandroid").fadeIn();
+    } else if (question5 === 1) {
+      $("#question7").hide();
+      $("#cnet").fadeIn();
+    } else if (question5 === 2) {
+      $("#question7").hide();
+      $("#rubyrails").fadeIn();
+    } else if (question5 === 3) {
+      $("#question7").hide();
+      $("#phpdrupal").fadeIn();
     }
   });
 
