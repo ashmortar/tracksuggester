@@ -10,16 +10,20 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
 
-    var queston1 = $("#question1").val();
-    var queston2 = $("#question2").val();
-    var queston3 = $("#question3").val();
-    var queston4 = $("#question4").val();
-    var queston5 = $("#question5").val();
-    var queston6 = $("#question6").val();
-    var queston7 = $("#question7").val();
+    var question1 = $("input:radio[name=question1]:checked").val();
+    var question2 = $("input:radio[name=question2]:checked").val();
+    var question3 = $("input:radio[name=question3]:checked").val();
+    var question4 = $("input:radio[name=question4]:checked").val();
+    var question5 = $("input:radio[name=question5]:checked").val();
+    var question6 = $("input:radio[name=question6]:checked").val();
+    var name = $("#name").val();
 
   //this will check to see if any questions were left blank and prompt the user to restart the quiz.
-  if ()
+  if ((question1 === "") || (question2 === "") || (question3 === "") || (question4 === "") || (question5 === "") || (question6 === "") || (name === "")) {
+    alert("please complete all the questions")
+    $("#question7").hide();
+    $("#question1").fadeIn();
+  }
   })
 
 });
