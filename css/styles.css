@@ -22,8 +22,31 @@ body {
 }
 .jumbotron h1 {
   font-size: 3em;
+  font-family: sans-serif;
+  border-bottom: 1px solid black;
+  font-style: italic;
 }
 
 .jumbotron p {
   font-size: 1em;
+  font-family: monospace;
+}
+
+button {
+  background-color: white !important;
+  font-family: sans-serif;
+}
+
+label {
+  font-family: monospace;
+}
+
+.question p {
+    font-family: monospace;
+}
+
+.question h3 {
+  border-left: 3px solid black;
+  background-color: lightgrey;
+  font-style: italic;
 }
