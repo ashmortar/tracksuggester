@@ -5,3 +5,25 @@
 .track {
   display: none;
 }
+
+body {
+  background-color: grey;
+
+}
+
+.container {
+  max-width: 85%;
+}
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-size: 20%;
+  BACK
+}
+.jumbotron h1 {
+  font-size: 3em;
+}
+
+.jumbotron p {
+  font-size: 1em;
+}
