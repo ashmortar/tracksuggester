@@ -24,7 +24,7 @@ body {
 .jumbotron h1 {
   font-size: 3em;
   font-family: sans-serif;
-  border-bottom: 1px solid black;
+  border-left: 3px solid black;
 }
 
 .jumbotron p {
@@ -43,12 +43,16 @@ label {
 
 .question p {
     font-family: monospace;
+    margin-left: 5%;
 }
 
 .question h3 {
-  border-left: 3px solid black;
+  border-bottom: 1px solid black;
   background-color: lightgrey;
-  font-style: italic;
+}
+
+.question .radio {
+  margin-left: 5%;
 }
 
 .track p {
