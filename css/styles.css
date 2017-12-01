@@ -20,11 +20,11 @@ body {
   background-size: 20%;
   BACK
 }
+
 .jumbotron h1 {
   font-size: 3em;
   font-family: sans-serif;
   border-bottom: 1px solid black;
-  font-style: italic;
 }
 
 .jumbotron p {
@@ -49,4 +49,12 @@ label {
   border-left: 3px solid black;
   background-color: lightgrey;
   font-style: italic;
+}
+
+.track p {
+    font-family: monospace;
+}
+
+.track h2 {
+    font-family: monospace;
 }
