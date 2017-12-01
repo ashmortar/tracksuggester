@@ -1,10 +1,10 @@
 .question {
   display: none;
-  background-color: rgba(75,56,50, 0.8);
+  background-color: #ffffff;
   border-left: 1px solid #fff4e6;
   border-top: 1px solid #fff4e6;
-  border-bottom: 1px solid #4b3832;
-  border-right: 1px solid #4b3832;
+  border-bottom: 1px solid #fff4e6;
+  border-right: 1px solid #fff4e6;
 }
 
 .track {
@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #be9b7b;
+  background-color: #f9f9f9;
 
 }
 
@@ -22,11 +22,14 @@ body {
 
 .jumbotron {
   background-size: 20%;
-  background-color: rgba(75,56,50, 0.8);
+  background-color: #ffffff;
+  background-image: url("../img/epicodus.png");
+  background-repeat: no-repeat;
+
   border-left: 1px solid #fff4e6;
   border-top: 1px solid #fff4e6;
-  border-bottom: 1px solid #4b3832;
-  border-right: 1px solid #4b3832;
+  border-bottom: 1px solid #fff4e6;
+  border-right: 1px solid #fff4e6;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -34,45 +37,47 @@ body {
 .jumbotron h1 {
   font-size: 3em;
   font-family: sans-serif;
-  color: #fff4e6;
+  color: #665952;
+  text-align: center;
 }
 
 .jumbotron p {
   font-size: 1em;
   font-family: monospace;
-  color: #fff4e6;
+  color: #6d6d6d;
 }
 
 button {
-  background-color: #854442 !important;
+  background-color: #3dc7cc !important;
   border-left: 1px solid #fff4e6;
   border-top: 1px solid #fff4e6;
-  border-bottom: 1px solid #4b3832;
-  border-right: 1px solid #4b3832;
+  border-bottom: 1px solid #fff4e6;
+  border-right: 1px solid #fff4e6;
   font-family: sans-serif;
-  color: #fff4e6;
+  color: #fff;
 }
 
 label {
   font-family: monospace;
-  color: #fff4e6;
+  color: #6d6d6d;
 }
 
 .question p {
     font-family: monospace;
     margin-left: 5%;
-    color: #fff4e6;
+    color: #6d6d6d;
 }
 
 .question h3 {
-  border-bottom: 1px solid #fff4e6;
-  background-color: #854442;
-  color: #fff4e6;
+  border-bottom: 1px solid #665952;
+  border-left: 3px solid #665952;
+  background: linear-gradient(to right, #3dc7cc , #fff);
+  color: #fff;
 }
 
 .question .radio {
   margin-left: 5%;
-  color: #fff4e6;
+  color: #6d6d6d;
 }
 
 .question .form-group {
@@ -80,39 +85,29 @@ label {
 }
 
 input[type=text] {
-    background-color: #4b3832;
-    color: #fff4e6;
+    color: #6d6d6d;
     width: 50%;
 }
 
 .track {
-  background-color: rgba(75,56,50, 0.8);
+  background-color: #ffffff;
   border-left: 1px solid #fff4e6;
   border-top: 1px solid #fff4e6;
-  border-bottom: 1px solid #4b3832;
-  border-right: 1px solid #4b3832;
+  border-bottom: 1px solid #fff4e6;
+  border-right: 1px solid #fff4e6;
 }
 
 .track p {
     font-family: monospace;
-    color: #fff4e6;
+    color: #6d6d6d;
 }
 
 .track h2 {
     font-family: monospace;
-    color: #fff4e6;
+    color: #665952;
 }
 
 a {
-  color: #fff4e6;
+  color: #6d6d6d;
   text-decoration: underline;
-}
-
-a:hover {
-  color: #fff4e6;
-  background-color: #854442;
-  border-left: 1px solid #fff4e6;
-  border-top: 1px solid #fff4e6;
-  border-bottom: 1px solid #4b3832;
-  border-right: 1px solid #4b3832;
 }

@@ -46,7 +46,7 @@ $(document).ready(function() {
       alert("please complete all the questions")
       $("#question7").hide();
       $("#question1").fadeIn();
-    };
+    }
 
     //this selects a track suggestion based on answers to the form questions
     if (question1 === 1) {
