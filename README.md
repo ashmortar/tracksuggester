@@ -24,7 +24,7 @@ _This project was completed using a combination of HTML, Boostrap v3.3.7, jQuery
 
 ## Website on gh-pages
 
-* _https://ashmortar.github.io/tracksurvey_
+* _https://ashmortar.github.io/tracksuggester_
 
 ### License
 

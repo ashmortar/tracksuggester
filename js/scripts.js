@@ -41,15 +41,21 @@ $(document).ready(function() {
       $(".experience").text("Cool! you are already a pro! I hope you like my code.  It might be a little messy but I'm new and trying really hard!");
     };
 
-    //this will check to see if any questions were left blank and prompt the user to restart the quiz.
+    /*  this function was originally separate to help in debugging and styling all elements in final version it is at the beginning
+        of the next if-else statement to check first if all fields are complete then only if all are complete will it begin decision tree and present the appropriate <div>
+
     if ((question1 === "") || (question2 === "") || (question3 === "") || (question4 === "") || (question5 === "") || (question6 === "") || (name === "")) {
       alert("please complete all the questions")
       $("#question7").hide();
       $("#question1").fadeIn();
-    }
+    } */
 
-    //this selects a track suggestion based on answers to the form questions
-    if (question1 === 1) {
+    //this checks if all questions were answered and selects a track suggestion based on answers to the form questions
+    if ((question1 === "") || (question2 === "") || (question3 === "") || (question4 === "") || (question5 === "") || (question6 === "") || (name === "")) {
+      alert("please complete all the questions")
+      $("#question7").hide();
+      $("#question1").fadeIn();
+    } else if (question1 === 1) {
       $("#question7").hide();
       $("#cssdesign").fadeIn();
     } else if (question2 === 1) {
