@@ -25,7 +25,6 @@ body {
   background-color: #ffffff;
   background-image: url("../img/epicodus.png");
   background-repeat: no-repeat;
-
   border-left: 1px solid #fff4e6;
   border-top: 1px solid #fff4e6;
   border-bottom: 1px solid #fff4e6;
@@ -108,6 +107,6 @@ input[type=text] {
 }
 
 a {
-  color: #6d6d6d;
-  text-decoration: underline;
+  color: #3dc7cc;
+  font-weight: bolder;
 }
